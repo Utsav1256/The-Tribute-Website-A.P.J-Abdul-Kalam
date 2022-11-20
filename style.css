@@ -1,0 +1,10 @@
+ * { /*to remove margin from corner (which is given by the browser by default), every thing will be reset */
+    margin: 0;
+    padding: 0;
+
+}
+.container { 
+    background-color: rgb(78, 78, 250); /* to add background to the whole page */
+    min-height: 100vh; /*to set min height to 100vh*/
+    border: 10px solid rgb(210, 121, 11); /* adding border to the edges*/
+}
