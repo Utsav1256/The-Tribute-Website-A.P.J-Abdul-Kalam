@@ -7,4 +7,5 @@
     background-color: rgb(78, 78, 250); /* to add background to the whole page */
     min-height: 100vh; /*to set min height to 100vh*/
     border: 10px solid rgb(210, 121, 11); /* adding border to the edges*/
+    
 }
