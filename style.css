@@ -16,7 +16,7 @@
 
 }
 
-.image_container, img {
+.image_container, img { /* it will select the img tag under the image_container */
     width: 300px;
     height: 320px;
 }
