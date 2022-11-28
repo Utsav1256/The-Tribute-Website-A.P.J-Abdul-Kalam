@@ -12,4 +12,6 @@
 
 .content {
     max-width: 900px; /* width of the content(horizontally) ||<--------------900px--------------->|----extra remaining outside content----|*/ 
+    margin: 0 auto; /* 0 -> up & down = 0, auto -> right and left = center */
+    
 }
