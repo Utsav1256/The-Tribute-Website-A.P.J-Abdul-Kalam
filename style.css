@@ -24,6 +24,14 @@
     
 }
 
+.top_section h1 { /* h1 of top_section */
+    font-size: 50px; /* to incease the font-size of the text */
+    font-weight: bold; /* to make the text bold */
+    color: rgb(159, 43, 8);
+    text-transform: uppercase; /* to set the whole text in uppercase */
+
+}
+
 .image_container {
     border-radius: 50%; /* to make the image circular */
     /* if it's not working, then do.. */
