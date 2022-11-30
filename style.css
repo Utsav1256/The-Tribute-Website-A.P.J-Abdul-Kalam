@@ -4,9 +4,9 @@
 
 }
 .container { 
-    background-color: rgb(78, 78, 250); /* to add background to the whole page */
+    background-color: rgb(77, 77, 253); /* to add background to the whole page */
     min-height: 100vh; /*to set min height to 100vh*/
-    border: 10px solid rgb(210, 121, 11); /* adding border to the edges*/
+    border: 10px solid rgb(211, 137, 47); /* adding border to the edges*/
 
 }
 
@@ -21,16 +21,21 @@
     margin-top: 100px; /*3.  */
     display: flex; /*1. it will bring img and name, date side by side */
     justify-content: space-between; /*2. to give space b/w them (b/w the two div tags)  */
-    align-items: flex-end; /* align-items-> defines hoe space is distributed b/w items in flex container */
+    align-items: flex-end; /* align-items-> defines how space is distributed b/w items in flex container */
 }
 
 
 .top_section h1 { /* h1 of top_section */
     font-size: 50px; /* to incease the font-size of the text */
     font-weight: bold; /* to make the text bold */
-    color: rgb(159, 43, 8);
+    color: rgb(200, 38, 5);
     text-transform: uppercase; /* to set the whole text in uppercase */
 
+}
+
+.top_section h4 {
+    text-align: center;
+    font-size: 30px;
 }
 
 .image_container {
@@ -42,4 +47,33 @@
 .image_container, img { /* it will select the img tag under the image_container */
     width: 300px;
     height: 320px;
+}
+
+.about_section {
+    margin-top: 50px;
+}
+.about_section h2 {
+    font-size: 70px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.about_section h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about_section h3,p {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 30px; /* space b/w lines */
+    letter-spacing: 1.2px; /* space b/w letters */
+
+}
+
+.footer h4 {
+    color: red;
+    font-size: 30px;
+}
+
+.footer h3 {
+    text-align: end;
 }
